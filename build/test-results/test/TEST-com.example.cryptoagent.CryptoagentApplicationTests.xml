@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.cryptoagent.CryptoagentApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-07-27T10:33:16.173Z" hostname="legion" time="2.139">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.cryptoagent.CryptoagentApplicationTests" time="0.576"/>
+  <system-out><![CDATA[12:33:16.280 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.cryptoagent.CryptoagentApplicationTests]: CryptoagentApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:33:16.373 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.cryptoagent.CryptoagentApplication for test class com.example.cryptoagent.CryptoagentApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.6)
+
+2026-07-27T12:33:16.722+02:00  INFO 24763 --- [cryptoagent] [    Test worker] c.e.c.CryptoagentApplicationTests        : Starting CryptoagentApplicationTests using Java 21.0.11 with PID 24763 (started by legion in /home/legion/IdeaProjects/repo/cryptoagent)
+2026-07-27T12:33:16.723+02:00  INFO 24763 --- [cryptoagent] [    Test worker] c.e.c.CryptoagentApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2026-07-27T12:33:17.723+02:00  INFO 24763 --- [cryptoagent] [    Test worker] c.e.c.CryptoagentApplicationTests        : Started CryptoagentApplicationTests in 1.214 seconds (process running for 2.15)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/home/legion/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.17.7/fbf3d6d649ed37fc9e9c59480a05be0a26e3c2da/byte-buddy-agent-1.17.7.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
