@@ -19,6 +19,8 @@ public class AiConfig {
             );
         }
 
+        System.out.println("MODEL CONNECTED");
+
         return OpenAiChatModel.builder()
                 .apiKey(apiKey)
                 .baseUrl("https://openrouter.ai/api/v1")
