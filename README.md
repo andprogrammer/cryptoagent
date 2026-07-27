@@ -41,3 +41,32 @@ Response
 ✅ WebClient działa
 ✅ CoinGecko działa
 ✅ Agent potrafi pobrać dane z zewnętrznego źródła
+
+
+
+
+                  +----------------+
+                  |  OpenRouter    |
+                  |  LLM           |
+                  +-------+--------+
+                          |
+                          |
+                    Tool decision
+                          |
+                          v
+                  +---------------+
+                  | CoinPriceTool |
+                  +-------+-------+
+                          |
+                          v
+                  +---------------+
+                  | CoinGecko API |
+                  +---------------+
+                          |
+                          v
+                  BTC:
+                  $65,014
+                  Market Cap:
+                  $1.304T
+                  24h:
+                  +0.97%

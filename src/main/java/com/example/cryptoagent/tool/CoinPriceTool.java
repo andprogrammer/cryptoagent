@@ -18,10 +18,10 @@ public class CoinPriceTool {
 
         System.out.println(">>> CoinGecko TOOL CALLED");
 
-        String price = coinGeckoClient.getBitcoinPrice();
+        String response = coinGeckoClient.getBitcoinPrice();
 
-        System.out.println(">>> CoinGecko RESPONSE: " + price);
+        System.out.println(">>> CoinGecko RESPONSE: " + response);
 
-        return price;
+        return "Current Bitcoin price: " + response;
     }
 }
