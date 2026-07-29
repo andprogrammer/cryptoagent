@@ -94,3 +94,24 @@ Thumbs.db
 *.temp
 *.swp
 *~
+
+###################################
+# OpenTofu / Terraform
+###################################
+
+.terraform/
+
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+*.tfplan
+*.tfplan.*
+
+*.tfvars
+*.tfvars.json
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
