@@ -5,11 +5,10 @@ FROM gradle:8.14.3-jdk21 AS builder
 
 WORKDIR /app
 
-COPY build.gradle settings.gradle* gradlew* ./
-COPY gradle gradle
-COPY src src
+COPY . .
 
 RUN gradle clean bootJar --no-daemon
+
 
 # ==========================
 # Runtime stage
