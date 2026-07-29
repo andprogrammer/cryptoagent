@@ -70,3 +70,20 @@ Response
                   $1.304T
                   24h:
                   +0.97%
+
+#########################################
+
+Docker
+
+docker build -t crypto-agent:latest .
+
+docker run \
+-p 8080:8080 \
+-e OPENROUTER_API_KEY=sk-or-v1-xxxxxxxx \
+crypto-agent:latest
+
+curl -X POST http://localhost:8080/chat \
+-H "Content-Type: application/json" \
+-d '{"message":"Czy warto kupić BTC?"}'
+
+#########################################
