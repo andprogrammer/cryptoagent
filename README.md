@@ -10,6 +10,11 @@ Example -> edit configuration
 curl -X POST http://localhost:8080/chat -H "Content-Type: application/json" -d "{\"message\":\"Czy warto kupić BTC?\"}"
 
 
+curl -X POST \
+"https://crypto-agent--4qely93.purpledesert-1680aee6.swedencentral.azurecontainerapps.io/chat" \
+-H "Content-Type: application/json" \
+-d '{"message":"Czy warto kupić BTC?"}'
+
 
 User
 |
